@@ -29,13 +29,13 @@ export default function Home() {
       <AnimatedSection className="mx-auto max-w-5xl px-6 pb-24">
         <h2 className="text-2xl font-semibold text-foreground">Skills</h2>
         <div className="mt-6 flex flex-wrap gap-3">
-          {skills
-            .flatMap((group) => group.items)
-            .map((item) => (
-              <span key={item} className="rounded-full border border-border px-4 py-2 text-sm text-muted-foreground">
+          {skills.flatMap((group) =>
+            group.items.map((item) => (
+              <span key={`${group.category}-${item}`} className="rounded-full border border-border px-4 py-2 text-sm text-muted-foreground">
                 {item}
               </span>
-            ))}
+            ))
+          )}
         </div>
       </AnimatedSection>
     </div>

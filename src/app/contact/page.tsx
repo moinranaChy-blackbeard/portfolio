@@ -17,7 +17,7 @@ export default function ContactPage() {
       <AnimatedSection className="mt-10">
         <a
           href={profile.resumeUrl}
-          download
+          download="Mohammad-Moin-Uddin-Chy-CV.pdf"
           className="inline-block rounded-full bg-accent px-6 py-3 text-sm font-medium text-background transition-opacity hover:opacity-90"
         >
           Download Resume

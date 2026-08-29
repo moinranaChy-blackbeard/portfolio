@@ -62,7 +62,7 @@ export function Hero() {
         </Link>
         <a
           href={profile.resumeUrl}
-          download
+          download="Mohammad-Moin-Uddin-Chy-CV.pdf"
           className="rounded-full border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
         >
           Download Resume
