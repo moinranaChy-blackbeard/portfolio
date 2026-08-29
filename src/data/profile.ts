@@ -26,7 +26,7 @@ export const profile: Profile = {
   location: "Dhaka, Bangladesh",
   email: "moinrana.chy@gmail.com",
   phone: "+880 1880606275",
-  github: "https://github.com/moinchy",
+  github: "https://github.com/moinrana",
   linkedin: "https://www.linkedin.com/in/moinrana",
   summary:
     "Software Engineer with 6+ years of experience designing, developing, and maintaining enterprise-grade web applications and ERP solutions. Proficient across the full stack — Angular frontend through .NET Core and Node.js backend, with strong expertise in MongoDB, GraphQL, and event-driven architecture via RabbitMQ. Consistently delivers scalable, maintainable solutions for international clients in distributed, cross-functional teams.",
